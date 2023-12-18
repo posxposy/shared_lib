@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:ansicolor/ansicolor.dart';
 import 'package:flutter/foundation.dart';
-import 'package:shared_core_lib/log/trace_record.dart';
+import 'package:shared_flutter_lib/log/trace_record.dart';
 
 final _log = <TraceRecord>[];
 

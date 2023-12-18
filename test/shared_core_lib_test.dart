@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_core_lib/shared_core_lib.dart';
+import 'package:shared_flutter_lib/shared_flutter_lib.dart';
 
 void main() {
   test('Optional with null value', () {

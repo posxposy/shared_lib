@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/widgets.dart';
-import 'package:shared_core_lib/extensions/context.dart';
+import 'package:shared_flutter_lib/extensions/context.dart';
 
 class PlatformBuilder extends StatelessWidget {
   final DesktopWidgetBuilder? desktop;

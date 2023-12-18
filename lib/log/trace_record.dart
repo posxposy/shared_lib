@@ -1,4 +1,4 @@
-import 'package:shared_core_lib/log/tracer.dart';
+import 'package:shared_flutter_lib/log/tracer.dart';
 
 final class TraceRecord {
   final String tag;
