@@ -1,6 +1,7 @@
 typedef FutureOptional<T> = Future<Optional<T>>;
 
 sealed class Optional<T> {
+  const Optional();
   static Optional<T> from<T>(T? value) {
     return value == null ? None() : Some(value: value);
   }
