@@ -8,7 +8,7 @@ sealed class Optional<T> {
 
 final class Some<T> extends Optional<T> {
   final T value;
-  Some({required this.value});
+  const Some({required this.value});
 
   @override
   int get hashCode => value.hashCode;
@@ -21,6 +21,8 @@ final class Some<T> extends Optional<T> {
 }
 
 final class None<T> extends Optional<T> {
+  const None();
+
   @override
   int get hashCode => 0;
 
