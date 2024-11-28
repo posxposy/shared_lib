@@ -5,6 +5,9 @@ sealed class Optional<T> {
   static Optional<T> from<T>(T? value) {
     return value == null ? None() : Some(value: value);
   }
+
+  const factory Optional.some({required T value}) = Some<T>;
+  const factory Optional.none() = None<T>;
 }
 
 final class Some<T> extends Optional<T> {
